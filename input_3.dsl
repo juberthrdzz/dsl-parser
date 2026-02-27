@@ -1,0 +1,16 @@
+CARRUSEL farmacia_noche {
+  ESPACIOS: 5
+  CAPACIDAD: 10
+
+  PRODUCTO analgesico {
+    PRECIO: 10.00
+    MINIMO: 1
+    MAXIMO: 20
+    CRITICIDAD: BAJA
+  }
+}
+
+SIMULAR {
+  TRANSACCIONES: [ ]
+  ESTADISTICAS
+}
